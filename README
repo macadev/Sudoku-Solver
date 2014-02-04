@@ -1,3 +1,3 @@
-Sudoku puzzle solving algorithm. Implements a backtracking approach where the most constrained cells in the puzzle (the one’s with the least number of possibilities) are targeted first for possible placements. If the program reaches a dead-end, a cell with no possible placements, then last move is undone an alternative option is attempted.
+Sudoku puzzle solving algorithm. Implements a backtracking approach where the most constrained cells in the puzzle (the one’s with the least number of possibilities) are targeted first for possible placements. If the program reaches a dead-end, a cell with no possible placements, then the last move is undone and an alternative option is attempted.
 
 Tested on sudoku grids of size 20x20, solving time was always under 10 seconds.
